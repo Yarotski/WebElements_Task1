@@ -42,7 +42,7 @@ namespace WebElements_Task1
                 if (elementtype is ISelectable)
                 {
                     ISelectable selectElement = (ISelectable)elementtype;
-                    selectElement.SelectElement("I am " + "'" + elementtype.ElementType + "'" + " and you can select me");
+                    selectElement.SelectElement();
                 }
             }
 

@@ -18,9 +18,9 @@ namespace WebElements_Task1
             return ElementType + " " + XCoordinate + " " + YCoordinate + " " + Height + " " + Width + " " + IsSelectedByDefault;
         }
 
-        public void SelectElement(string selectedElement)
+        public void SelectElement()
         {
-            Console.WriteLine(selectedElement);
+            Console.WriteLine("I am CheckBox and you can select me!!");
         }
     }
 }

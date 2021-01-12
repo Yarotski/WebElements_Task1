@@ -6,6 +6,6 @@ namespace WebElements_Task1
 {
     interface ISelectable
     {
-        void SelectElement(string selectedElement);
+        void SelectElement();
     }
 }
