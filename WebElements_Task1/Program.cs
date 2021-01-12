@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace WebElements_Task1
 {
@@ -15,7 +16,17 @@ namespace WebElements_Task1
             Picture picture1 = new Picture("Picture", 108, 0.8f, 4, 60, 300);
             Menu menu1 = new Menu("Menu", 108, 0.8f, 4, 60, "Green", "Yellow");
 
-            Element[] elements = new Element[] { textBox1, editBox1, radioButton1, checkBox1, button1, link1, picture1, menu1 };
+            //Element[] elements = new Element[] { textBox1, editBox1, radioButton1, checkBox1, button1, link1, picture1, menu1 };
+
+            List<Element> elements = new List<Element>();
+            elements.Add(textBox1);
+            elements.Add(editBox1);
+            elements.Add(radioButton1);
+            elements.Add(checkBox1);
+            elements.Add(button1);
+            elements.Add(link1);
+            elements.Add(picture1);
+            elements.Add(menu1);
 
             Console.WriteLine("All elements:");
             
